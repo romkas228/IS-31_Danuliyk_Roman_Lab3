@@ -100,6 +100,7 @@ html, body{
 
     margin-top: 3%;
     display: flex;
+    flex-wrap: wrap;
     justify-content:space-around;
   }
   #categories div{
@@ -110,7 +111,10 @@ html, body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 13%;
+    min-width: 150px;
+     /* Задаємо мінімальну ширину для елемента */
+    
+   
     font-family: "Dela Gothic One", sans-serif;
     font-weight: 400;
     font-style: normal;

@@ -16,7 +16,7 @@ height: 7vh;
 
 .fixedTable
 {
-width: 1000px; /* фіксована ширина таблиці */
+width: 1000px; 
 height: 700px;
 border-spacing: 20px 0px;
 }
